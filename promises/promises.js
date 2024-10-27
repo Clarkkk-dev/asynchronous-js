@@ -123,7 +123,7 @@ promise1
     .catch((error) => {
         console.log(error);
     })
-    .finally((message) => {
-        console.log(message);
+    .finally(() => {
+        console.log("Promise chain complete!");
     })
  

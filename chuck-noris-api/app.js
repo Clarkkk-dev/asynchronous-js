@@ -24,3 +24,5 @@ const loadJoke = async () => {
 }
 
 loadJokeBtn.addEventListener("click", loadJoke);
+
+
